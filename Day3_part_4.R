@@ -9,7 +9,7 @@
 
 # * Functions with empty input are possible but rare
 # * Usually: element-wise application of the function
-x <- 1:5; y <- 6:10; z <- -1:3; x + y + z # "+" is a function
+x <- 1:15; y <- 6:10; z <- -1:3; x + y + z # "+" is a function
 exp(x=x) # application of the exp-function on each element of x
 # * non-sense computations: `R` usually gives a _warning_
 log(z)
